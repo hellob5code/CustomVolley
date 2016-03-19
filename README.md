@@ -30,8 +30,8 @@ Có thể nó chưa được hoàn toàn _sạch sẽ_ vậy nên tôi rất hoa
 _**Nếu bạn đang sử dụng một class Application được tùy biến vậy thì chỉ cần kế thừa từ Application đó thay vì  kế thừa android.app.Application**_
 
 ## Sử dụng
+Sau khi cấu hình các thông số trên, các bạn chỉ cần download toàn bộ folder volley về và paste vào project của các bạn.
 Đây là ví dụ ngắn sử dụng 
-
 
 ```java
 	Json.init(context)
