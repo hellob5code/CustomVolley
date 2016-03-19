@@ -36,8 +36,8 @@ Sau khi cấu hình các thông số trên, các bạn chỉ cần download toà
 
 ```java
 	Json.init(context)
-                .put("username", user)    // only use put(key, value) when method is POST
-                .put("password", password)
+                .put("username", "nguyenvanquan7826")    // only use put(key, value) when method is POST
+                .put("password", "lamgico")
                 .setIsCache(false)
                 .setUrl("http://nguyenvanquan7826.com/login")
                 .setListener(new Json.JsonListener() {
