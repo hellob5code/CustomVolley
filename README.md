@@ -20,7 +20,7 @@
 	</application>
 </manifest>
 ```
-Nếu bạn đang sử dụng một class Application được tùy biến vậy thì chỉ cần kế thừa từ Application đó thay vì  kế thừa android.app.Application
+_**Nếu bạn đang sử dụng một class Application được tùy biến vậy thì chỉ cần kế thừa từ Application đó thay vì  kế thừa android.app.Application**_
 
 ## Sử dụng
 Đây là ví dụ ngắn sử dụng 
