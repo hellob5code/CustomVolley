@@ -1,6 +1,6 @@
 # CustomVolley
 
-Đây là bộ volley tùy biến dựa trên volley và Gson chuẩn của google để tạo một số chức năng phổ biến, cần thiết mà trong quá trình làm việc với volley tôi đã gặp phải.
+Đây là bộ volley tùy biến dựa trên Volley và Gson chuẩn của google để tạo một số chức năng phổ biến, cần thiết mà trong quá trình làm việc với volley tôi đã gặp phải.
 
 Có thể nó chưa được hoàn toàn _sạch sẽ_ vậy nên tôi rất hoan nghênh các bạn góp ý cho tôi
 
