@@ -20,9 +20,10 @@ Có thể nó chưa được hoàn toàn _sạch sẽ_ vậy nên tôi rất mon
 ## Cấu hình trong manifest
 
 ```xml
- <application
-        android:name="com.nguyenvanquan7826.demo.volley.AppController"
-
+</manifest>
+	...
+ 	<application
+        	android:name="com.nguyenvanquan7826.demo.volley.AppController"
 		...
 	</application>
 </manifest>
