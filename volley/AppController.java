@@ -1,8 +1,8 @@
-package com.otvina.ictusocial.volley;
+package com.nguyenvanquan7826.demo.volley;
 
 import android.text.TextUtils;
 
-import com.activeandroid.app.Application;
+import android.app.Application;
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.VolleyLog;
