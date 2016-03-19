@@ -1,4 +1,4 @@
-package com.otvina.ictusocial.volley;
+package com.nguyenvanquan7826.demo.volley;
 
 import android.graphics.Bitmap;
 import android.support.v4.util.LruCache;
