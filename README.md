@@ -2,7 +2,7 @@
 
 Đây là bộ volley tùy biến dựa trên Volley và Gson chuẩn của google để tạo một số chức năng phổ biến, cần thiết mà trong quá trình làm việc với volley tôi đã gặp phải.
 
-Có thể nó chưa được hoàn toàn _sạch sẽ_ vậy nên tôi rất hoan nghênh các bạn góp ý cho tôi
+Có thể nó chưa được hoàn toàn _sạch sẽ_ vậy nên tôi rất mong muốn các bạn thảo luận, góp ý cho tôi.
 
 ### Chức năng chính nổi bật
 * Cho phép nhớ cache với tất cả các url dù website có hỗ trợ hay không hỗ trợ nhớ cache
