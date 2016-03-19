@@ -1,6 +1,13 @@
 # CustomVolley
 
-Đây là bộ volley tùy biến dựa trên volley và Gson chuẩn của google để có thể xử dụng một cách nhanh chóng và hiệu quả, đặc biệt là có thể lưu cache ngay cả với những website không cho lưu cache.
+Đây là bộ volley tùy biến dựa trên volley và Gson chuẩn của google để tạo một số chức năng phổ biến, cần thiết mà trong quá trình làm việc với volley tôi đã gặp phải.
+
+Có thể nó chưa được hoàn toàn _sạch sẽ_ vậy nên tôi rất hoan nghênh các bạn góp ý cho tôi
+
+### Chức năng chính nổi bật
+* Cho phép nhớ cache với tất cả các url dù website có hỗ trợ hay không hỗ trợ nhớ cache
+* Cho phép đặt thời gian timeout
+* Lắng nghe sự kiện một cách gọn nhẹ và thông báo lỗi một cách chính xác
 
 ## Cấu hình trong Gradle
 
@@ -74,6 +81,8 @@ class **Json** cung cấp một số lệnh để thao tác như sau
 
 **setListener(JsonListener listener):** Đặt bộ lắng nghe sự kiện về. listener sẽ thực hiện viết đè hàm 
 **onFinishLoadJson(String error, String json, String tag)** Nếu thành công thì json sẽ là một chuỗi khác null, error khác null tức là có lỗi.
+
+**getGson()** phương thức static lấy đối tượng Gson. Tôi cũng đã gặp một số lỗi đại loại như [Gson Cannot make field constructor accessible](http://www.nguyenvanquan7826.com/2016/03/06/android-fix-gson-cannot-make-field-constructor-accessible/) và tôi đã tích hợp nó luôn vào đây.
 
 ## Một số thứ khác
 Có thể bạn sẽ cần một vài chuỗi sau đây để phục vụ cho thông báo lỗi khi sử dụng volley
