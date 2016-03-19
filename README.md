@@ -35,7 +35,7 @@ _**Nếu bạn đang sử dụng một class Application được tùy biến v�
 
 ```java
 	Json.init(context)
-                .put("username", user)
+                .put("username", user)    // only use put(key, value) when method is POST
                 .put("password", password)
                 .setIsCache(false)
                 .setUrl("http://nguyenvanquan7826.com/login")
@@ -57,7 +57,7 @@ _**Nếu bạn đang sử dụng một class Application được tùy biến v�
 
 class **Json** cung cấp một số lệnh để thao tác như sau
 
-**put(String key, String value)** : Truyền một đối số lên
+**put(String key, String value)** : Truyền một đối số lên, lưu ý vì volley không gọi hàm getParams với phương thức GET nên các bạn không dùng nó để truyền dữ liệu lên với phương thức GET 
 
 **setMethod(int method):** Đặt phương thức gửi lên (mặc định là GET)
 
