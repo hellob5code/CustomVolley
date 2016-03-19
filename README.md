@@ -75,3 +75,15 @@ class **Json** cung cấp một số lệnh để thao tác như sau
 **setListener(JsonListener listener):** Đặt bộ lắng nghe sự kiện về. listener sẽ thực hiện viết đè hàm 
 **onFinishLoadJson(String error, String json, String tag)** Nếu thành công thì json sẽ là một chuỗi khác null, error khác null tức là có lỗi.
 
+## Một số thứ khác
+Có thể bạn sẽ cần một vài chuỗi sau đây để phục vụ cho thông báo lỗi khi sử dụng volley
+
+```xml
+<string name="no_network_connection" translatable="false">No network connection found</string>
+<string name="generic_server_down" translatable="false">Server down</string>
+<string name="generic_server_timeout" translatable="false">Server Timeout</string>
+<string name="generic_error" translatable="false">No internet</string>
+<string name="no_internet" translatable="false">No internet</string>
+<string name="parsing_failed" translatable="false">Parsing Failure</string>
+<string name="auth_failed" translatable="false">Authentication Failure</string>
+```
