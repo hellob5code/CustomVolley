@@ -21,3 +21,23 @@
 </manifest>
 ```
 Nếu bạn đang sử dụng một class Application được tùy biến vậy thì chỉ cần kế thừa từ Application đó thay vì  kế thừa android.app.Application
+
+## Sử dụng
+```java
+	Json.init(context)
+                .put("username", user)
+                .put("password", password)
+                .setIsCache(false)
+                .setUrl("http://nguyenvanquan7826.com/login")
+                .setListener(new Json.JsonListener() {
+                    @Override
+                    public void onFinishLoadJson(String error, String json, String tag) {
+                        if (error == null && json != null) {
+                            // do something
+                        }
+                        if (error != null) {
+                            // do something
+                        }
+                    }
+                })
+                .runPost();
