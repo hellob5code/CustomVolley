@@ -54,9 +54,7 @@ Sau khi cấu hình các thông số trên, các bạn chỉ cần download toà
                 .runPost();
 ```
 
-## Các hàm chính cần biết 
-
-class **Json** cung cấp một số lệnh để thao tác như sau
+## Các hàm chính trong Json.java
 
 **init(Context context):** Hàm khởi tạo
 
