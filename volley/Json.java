@@ -1,4 +1,4 @@
-package com.otvina.ictusocial.volley;
+package com.nguyenvanquan7826.demo.volley;
 
 import android.content.Context;
 
@@ -19,34 +19,6 @@ public class Json {
 
     public static final int POST = Request.Method.POST;
     public static final int GET = Request.Method.GET;
-
-    public static final String APP_ID = "475681656679";
-    public static final String APP_SECRET = "LsO189xl1p5b5673t87pQ05w6d3k9KeP";
-
-    public static final String URL_NOTIFY = "http://www.nguyenvanquan7826.com/mobile/tkb/notify.php";
-
-    public static final String DOMAIN = "http://ictu.kingdark.org/";
-    public static final String HOME_SCHOOL = DOMAIN + "api.php?";
-    public static final String HOME_SERVICE = "http://www.nguyenvanquan7826.com/mobile/ictusocial/";
-
-    public static final String URL_LOGIN = HOME_SCHOOL + "api=login-app";
-    public static final String URL_USER_INFO = HOME_SCHOOL + "api=get&path=user";
-    public static final String URL_TKB = HOME_SCHOOL + "api=get&path=student-time-table";
-    public static final String URL_NEWS = HOME_SCHOOL + "api=get&path=news";
-    public static final String URL_SCORE = HOME_SCHOOL + "api=get&path=student-mark";
-    public static final String URK_LIST_TEACHER = HOME_SCHOOL + "api=get&path=teacher-list";
-    public static final String URL_EXAM = HOME_SCHOOL + "api=get&path=student-exam-list";
-    public static final String URL_NEWS_DETAIL = HOME_SCHOOL + "api=get&path=news-detail&newsid=";
-
-    public static final String URL_SERVICE = HOME_SERVICE + "?get=service";
-    public static final String URL_CONTACT = HOME_SERVICE + "?get=contact";
-    public static final String URL_KHOA_BOMON = HOME_SERVICE + "?get=khoabomon";
-    public static final String URL_CONTACT_SERVICE = HOME_SERVICE + "?get=contact&service=";
-
-
-    public static final String API_KEY = "api";
-    public static final String PATH_KEY = "path";
-    public static final String TOCKEN_KEY = "access-token";
 
     private String url;
     private int method = GET;
