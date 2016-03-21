@@ -16,7 +16,6 @@ import com.android.volley.TimeoutError;
 import com.android.volley.VolleyError;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-import com.otvina.ictusocial.R;
 
 public class VolleyErrorHelper {
     /**
