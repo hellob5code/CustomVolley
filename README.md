@@ -96,3 +96,5 @@ Có thể bạn sẽ cần một vài chuỗi sau đây để phục vụ cho th
 <string name="parsing_failed" translatable="false">Parsing Failure</string>
 <string name="auth_failed" translatable="false">Authentication Failure</string>
 ```
+
+edit by nvquan1102
